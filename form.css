@@ -1,0 +1,186 @@
+body{
+    background-color: #F8FFF4;
+    padding: 1rem;
+}
+.flex1{
+    height: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#head1{
+    margin-left:6rem;
+    font-family: 'roboto';
+    color: #555;
+}
+#head2{
+    margin-left:20rem;
+    margin-bottom: 50rem;
+    font-family: 'roboto';
+    color: #555;
+}
+h3{
+    font-family: 'roboto';
+    color: #555;
+}
+#pname{
+    font-family: 'roboto';
+    color: #555;
+    font-size: large;
+    font-weight: 500;
+}
+#confirm,#place{
+    font-family: 'roboto';
+    font-size: medium;
+    background-color: rgb(152, 147, 147);
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    margin-left: 18rem;
+ }
+ #confirm:hover,#place:hover{
+    background-color: rgb(100, 94, 94);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+ }
+ #place{
+    margin-left: 18.5rem;
+    font-size: 1.11rem;
+ }
+
+ 
+#pname,#sub_total,#tax,#ship,#total{
+    margin-left: 1rem;
+    margin-top: 1.4rem;
+}
+#sub_total{
+    margin-left: 5.5rem;
+}
+#tax{
+    margin-left: 8rem;
+}
+#total{
+    margin-left: 7.6rem;
+}
+#d1,#d2,#d3,#d4{
+    display: flex;
+    flex-direction: row;
+}
+p{
+    font-family: 'roboto';
+}
+#d{
+    display: flex;
+    flex-direction: row;
+}
+#quantity{
+    width: 2.5rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+#display{
+    display: flex;
+    flex-direction: row;
+}
+form{
+    padding: 1rem;
+}
+.container{
+    background-color: #D8DAD3;
+    height: 90%;
+    margin-top: 2rem;
+    width: 33rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0,0.2);
+}
+#container2{
+    background-color: #D8DAD3;
+    height: 90%;
+    padding: 0.5rem;
+    width: 33rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0,0.2);
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+label{
+    font-family: 'roboto';
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+}
+input{
+    height: 1.4rem;
+    width: 20rem;
+    margin: 0.5rem;
+    display: block;
+
+}
+#address{
+    height: 3.5rem;
+    width: 25rem;
+    padding: 0;
+}
+#postal{
+    width:5rem;
+
+}
+label{
+    font-size: large;
+    font-family: 'Roboto';
+}
+footer{
+    margin-top: 4rem;
+    width: 100%;
+    height: 15rem;
+    border-radius: 0.5rem;
+    background-color: #D8DAD3;
+    box-shadow: 0 2px 8px rgba(0, 0, 0,0.2);
+}
+.footh{
+    margin-left: 2rem;
+    font-family: 'roboto';  
+    
+}
+.li{
+    margin-left: 2rem;
+    font-weight: 500;
+}
+.fflex{
+    display: flex;
+    flex-direction: row;
+}
+.heading2,.heading3{
+    margin-left: 10rem;
+}
+.li2{
+    font-weight: 500;
+}
+.icon{
+    height: 1rem;
+    width: 1rem;
+    background-color: rgb(6, 6, 5);
+}
+#h33{
+    margin-left: 5rem;
+}
+#i1{
+    margin-left: 7rem;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+#i2{
+    margin-top: 0.8rem;
+    margin-left: 7rem;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+#i3{
+    margin-top: 0.8rem;
+    margin-left: 7rem;
+    height: 2.5rem;
+    width: 2.5rem;
+}
